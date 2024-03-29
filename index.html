@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+ <style>
+    body
+    {
+    
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        background-color: lightgray;
+    }
+    #content
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .left
+    {
+        width: 20%;
+        height: auto;
+        margin-left: 25%;
+        font-size: 20px;
+    }
+    .right
+    {
+        width: 100%;
+        height: auto;
+    }
+    .right input[type='text']
+    {
+        width: 60%;
+        height: auto;
+        padding: 5px;
+    }
+    .right textarea
+    {
+        width: 60%;
+        height: 100px;
+        padding: 5px;
+    }
+    .right input[type='submit']
+    {
+        width: 15%;
+        height: auto;
+        padding: 8px;
+        background-color: lightcoral;
+        color: black;
+        border: none;
+        font-size: 20px;
+        margin-left: 20%;
+        border-radius: 5px;
+    }
+    /* #info
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .right
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+    }
+    .right input
+    {
+          width: 38%;
+          padding: 4px;
+    }
+    .right input[type='radio']
+    {
+        width: 2%;
+        margin: 0px;
+    }
+    .right input[type='checkbox']
+    {
+        width: 5%;
+        margin-top: 2%;
+        padding: 3px;
+    }
+    */
+ </style>
+</head>
+<body>
+    <h1 style="text-align: center; font-size: 38px;">student Registration form </h1>
+
+    <section id="content">
+        <div class="left">
+            <label>first name:</label>
+            <br><br>
+            <label>Last name:</label>
+            <br><br>
+            <label>Email:</label>
+            <br><br>
+            <label>Mobile:</label>
+            <br><br>
+            <label>Gender:</label>
+            <br><br>
+            <lable>Date of Birth:</lable>
+            <br><br>
+            <label>Address:</label>
+            <br><br><br><br><br><br>
+            <label>city:</label>
+            <br><br>
+            <label>Area PIN:</label>
+            <br><br>
+            <label>State:</label>
+            <br><br>
+            <label>Qualification:</label>
+            <br><br>
+            <label>Specialization:</lable>
+            <br><br><br><br><br>
+            <label>Password:</label>
+        </div>
+
+        <div class="right">
+            <input type="text" placeholder="enter your frist name">
+            <br><br>
+            <input type="text" placeholder="enter your last name">
+             <br><br>
+            <input type="text"  placeholder="it should contain @">
+             <br><br>
+            <input type="text"  placeholder="only 10 digits allowed">
+            <br><br>
+            <input  type="radio" name="text" placeholder="Male" > Male
+            <input type="radio" name="text" placeholder="Female" > Female
+            <br><br>
+            <input type="date" name="dob" placeholder="Date" >
+            <br><br>
+            <textarea name="address" cols="40" rows="6" ></textarea>
+            <br><br>
+            <input type="text" placeholder="" name=""> 
+            <br><br>
+            <input type="text" placeholder="" name="">
+            <br><br>
+            <input type="text" placeholder="" name="">
+            <br><br><br>
+            <select name="education">
+                <option value="">Qualification</option>
+                <option value="1">Commerce</option>
+                <option value="2">science</option>
+                <option value="3">Diploma</option>
+                <option value="4">Arts</option>
+            </select>
+            <br><br>
+            <input type="checkbox"  name="text" placeholder="computer science" > computer science 
+            <br>
+            <input type="checkbox" name="text" placeholder=" Information Technology"> Information Technology
+            <br>
+            <input type="checkbox" name="text" placeholder="Computer Architecture"> Computer Architecture
+            <br>
+            <input type="checkbox" name="text" placeholder="Tele Communiction" > Tele Communiction
+            <br><br>
+            <input type="text" placeholder="Password" name="">
+            <br><br>
+            <input type="submit" name="registered" value="registered" >
+        </div>
+    </section>
+
+    
+    <!-- <div class="heading">
+        <h1 style="margin-left: 35%;">Students Registration From</h1>
+        <hr width="30%">
+    </div>
+    <section id="info">
+   
+    
+ 
+   
+    <div class="right">
+        
+       
+    </div>
+</section> -->
+</body>
+</html>
